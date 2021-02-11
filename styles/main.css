@@ -1,0 +1,61 @@
+@import url(//fonts.googleapis.com/css?famly=Open+Sans);
+
+body {
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+    background: #ddd;
+    
+
+}
+#AnnaHeader {
+    font-weight: 400;
+    -webkit-font-smoothing: anatialased;
+    color:slategrey;
+    background-color: papayawhip;
+    height:80px;
+    padding: 30px;
+}
+
+nav > a{
+    color: #FFFACD;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+
+.horizontal {
+    list-style: none;
+    list-style-type: none;
+}
+.horizontal > href {
+    display: inline;
+    margin-left: 37.5px
+}
+
+#about{
+    margin-right:20px;
+}
+
+
+
+footer {
+    color: #FFFACD;
+    background-color: black;
+    margin-top: auto;
+}
+
+nav {
+    color: #FFFACD;
+    background-color: black;
+}
+
