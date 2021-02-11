@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?famly=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans&display=swap');
 
 body {
     font-family: 'Open Sans', 'sans-serif';
@@ -15,47 +15,47 @@ body {
     -webkit-font-smoothing: anatialased;
     color:slategrey;
     background-color: papayawhip;
-    height:80px;
+    height:auto;
     padding: 30px;
+    font-family: Calligraffitti;
+    font-size: 30px;
 }
 
-nav > a{
+
+
+
+nav > a {
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
     color: #FFFACD;
-}
+    cursor: pointer;
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-
-
-
-.horizontal {
-    list-style: none;
-    list-style-type: none;
-}
-.horizontal > href {
-    display: inline;
-    margin-left: 37.5px
-}
-
-#about{
-    margin-right:20px;
-}
-
-
-
-footer {
-    color: #FFFACD;
-    background-color: black;
-    margin-top: auto;
 }
 
 nav {
-    color: #FFFACD;
+    font-size:1.5em ;
+    padding: 14px 16px;
+}
+
+
+footer{
+    position:fixed;
+    bottom: 0px;
+    width:100%;
     background-color: black;
+    color: #FFFACD;
+}
+
+
+
+
+
+
+
+
+nav {
+    color: #FFFACD;
+    background-color:grey;
 }
 
