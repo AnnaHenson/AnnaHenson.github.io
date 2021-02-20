@@ -33,6 +33,10 @@ nav > a {
 
 }
 
+body{
+    margin-left: 8px;
+}
+
 nav {
     font-size:1.5em ;
     padding: 14px 16px;

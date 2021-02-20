@@ -20,7 +20,7 @@
         <a href="/blog/About.html" id="about">About</a>
     
     </nav>
-    <div>
+    <div style="padding-bottom: 1em;">
         <h2>Sprint 3 Technical</h2>
 
 <p>
@@ -37,19 +37,21 @@
     
     <h2>What is the DOM? How might you use it?</h2>
     
-    <p>DOM stands for document object model and is a hierarchal tree structure, which gives a structural representation of HTML and uses HTML elements upon which the Dom operates.
-     
-    In essence the DOM represents a web page which can be manipulated once the web page is opened in the browser or window. The HTML gives the hierarchical structure a path for the DOM to interact with other coding languages such as HTML, CSS and JavaScript. So, the analogy is a tree in my garden with roots as the window and a trunk which acts as the document. The trunk allows us to climb up and access more content in the top of the tree by having more branches with more nodes (elements).</p>
+    <p>DOM stands for document object model and is a hierarchal tree structure, which gives a structural representation of HTML and uses HTML elements upon which the Dom operates.</p>
+     <img src="/images/DOMtree.png"/>
+    <p>In essence the DOM represents a web page which can be manipulated once the web page is opened in the browser or window. The HTML gives the hierarchical structure a path for the DOM to interact with other coding languages such as HTML, CSS and JavaScript. So, the analogy is a tree in my garden with roots as the window and a trunk which acts as the document. The trunk allows us to climb up and access more content in the top of the tree by having more branches with more nodes (elements).</p>
     
     <h2>What's the difference between accessing data from arrays, and accessing data from objects?</h2>
     
     <h3>Accessing data from arrays</h3>
     <p>Data such as numbers or strings defined as characters can be stored in an array which is declared by [ ]; and then the data put inside so it is all in one place.
     Example:  Important to remember zero-based indexing and specify an entry in the array. Value of the 1st element is 50. </p>
+    <img src="/images/Array.png"/>
      
     <h3>There are two ways to access data and use an objects property</h3>
     <p>Option one is bracket notation and the other is .notation to access properties of objects.
     You can use bracket notation for other positions within an array as shown below where we access “d” within the first name Ada.</p>
+    <img src="/images/Bracketnotation.png"/>
      
      
     <p>If the property of an object your trying to access has a space in its name use [ ] like below.</p>
@@ -61,16 +63,21 @@
     
     
     <p>You can also use dot notation from an array to access the related value.</p>
+    <img src="/images/Dotnotation.png"/>
      
     <P>We want to retrieve a value “shooting guard”.</p>
+        <img src="/images/Notationresult.png"/>
+    <p>Another example is shown below</p>
      
      
     
-    Var testObject = {
-    “hat”: “ballcap”
-    “shirt”: “jersey”
-    Var hatvalue = testObject.hat
-    Var shirtvalue = testObject.shirt
+    Var testObject = { <br />
+    “hat”: “ballcap” <br />
+    “shirt”: “jersey” <br />
+    }
+    var hatvalue = testObject.hat<br />
+    var shirtvalue = testObject.shirt <br />
+    
     
     
     
@@ -83,7 +90,7 @@
     
     <h2>What are functions? Why are they useful?</h2>
     <p>Functions are block of code that executes in order to do a task which is specific as it invokes action such as calculating a lot of numbers, for example stock taking plants at a garden centre. A manager requires accuracy for the stock evaluation report. We need a function which allows a person to scan a code and then put how many plants there are and repeat this function for all plants with a code. Now, this function can scan the code and take the numbers inputted by staff then do a count of stock. </p>
-    
+    <p></p>
 
 
     </div>
